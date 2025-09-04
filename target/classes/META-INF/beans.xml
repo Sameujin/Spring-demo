@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student1" class="jspiders.spring_dem.dto.Student">
+        <property name="studentId" value="1"/>
+        <property name="name" value="Sam"/>
+        <property name="email" value="jsameujene@gmail.com"/>
+        <property name="contact" value="8754864857"/>
+    </bean>
+<bean id="student2" class="jspiders.spring_dem.dto.Student">
+<property name="studentId" value="02"></property>
+<property name="name" value="cr7"></property>
+<property name="email" value="cr7@gmail.com"></property>
+<property name="contact" value="85486587485"></property>
+</bean>
+</beans>
